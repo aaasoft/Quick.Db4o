@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<AssemblyTitle>Db4oExplorer</AssemblyTitle>
+		<Product>Db4o Explorer</Product>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<RollForward>Major</RollForward>
+		<Description>db4o数据库管理工具，支持类型与字段的重命名与删除，数据库的备份与碎片整理等功能。</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Db4objects.Db4o.CS\Db4objects.Db4o.CS.csproj" />
+		<ProjectReference Include="..\Db4objects.Db4o\Db4objects.Db4o.csproj" />
+	</ItemGroup>
+
+</Project>

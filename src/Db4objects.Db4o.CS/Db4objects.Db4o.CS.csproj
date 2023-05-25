@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageTags>db4o</PackageTags>
+		<Description>db4o - database for objects</Description>
+		<Product>db4o</Product>
+		<Version>8.1.269.14430</Version>
+		<PackageProjectUrl>https://github.com/aaasoft/Quick.Db4o</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/aaasoft/Quick.Db4o</RepositoryUrl>
+		<PackageId>Quick.Db4o.CS</PackageId>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Db4objects.Db4o\Db4objects.Db4o.csproj" />
+	</ItemGroup>
+</Project>
